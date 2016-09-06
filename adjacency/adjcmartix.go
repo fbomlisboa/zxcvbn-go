@@ -17,9 +17,9 @@ var AdjacencyGph = make(map[string]AdjacencyGraph)
 
 func init() {
 	AdjacencyGph["qwerty"] = BuildQwerty()
-	AdjacencyGph["dvorak"] = BuildDvorak()
-	AdjacencyGph["keypad"] = BuildKeypad()
-	AdjacencyGph["macKeypad"] = BuildMacKeypad()
+	// AdjacencyGph["dvorak"] = BuildDvorak()
+	// AdjacencyGph["keypad"] = BuildKeypad()
+	// AdjacencyGph["macKeypad"] = BuildMacKeypad()
 	AdjacencyGph["l33t"] = BuildLeet()
 }
 
